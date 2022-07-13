@@ -58,7 +58,7 @@ object Main extends App {
     if (imc > 35 && imc <= 40) {
       println("Severe Obesity, your BMI and: " + (imc))
     }
-    else {
+    if (imc> 40) {
       println("Morbid Obesity: " + (imc))
     }
 
